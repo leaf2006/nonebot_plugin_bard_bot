@@ -12,3 +12,19 @@ adapters = [
 plugins = ["nonebot_plugin_gocqhttp"]
 plugin_dirs = ["nonebot_plugin_bard_bot"]
 builtin_plugins = ["echo"]
+
+[tool.poetry]
+name = "nonebot-plugin-bard-bot"
+version = "0.1.0"
+description = "一个非常简单但是很可用的使得在QQ中可以使用Google Bard的插件"
+authors = ["Leaf developer"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

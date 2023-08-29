@@ -1,12 +1,7 @@
 # nonebot-plugin-bard-bot
 
-## How to start
+一个非常简单但是很可用的使得在QQ中可以使用Google Bard的插件
 
-1. generate project using `nb create` .
-2. create your plugin using `nb plugin create` .
-3. writing your plugins under `src/plugins` folder.
-4. run your bot using `nb run --reload` .
+# Getting Started
 
-## Documentation
-
-See [Docs](https://nonebot.dev/)
+（README正在施工）
