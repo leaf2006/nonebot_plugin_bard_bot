@@ -43,7 +43,7 @@ __plugin_meta__ = PluginMetadata(
     # 发布必填，当前有效类型有：`library`（为其他插件编写提供功能），`application`（向机器人用户提供功能）。
 
 
-    homepage="{项目主页}",
+    homepage="https://github.com/leaf2006/nonebot_plugin_bard_bot",
     # 发布必填。
 
 
