@@ -38,6 +38,15 @@ plugins = ["你安装的其他插件...", "nonebot_plugin_bard_bot"]
 
 使用本机器人首先你要知道如何使用Google Bard。因为本机器人基于bardapi库，需要获取cookies中的**Secure-1PSID，Secure-1PSIDTS和Secure-1PSIDCC**后才能使用
 
-具体方法参看本文档
+然后，请打开.**env**文件进行配置，在文件中写入以下语句：
 
+```
+COOKIE_DICT={
+    "__Secure-1PSID": "Your __Secure-1PSID",
+    "__Secure-1PSIDTS": "Your __Secure-1PSIDTS",
+    "__Secure-1PSIDCC": "Your __Secure-1PSIDCC"
+}
+```
+
+随后启动机器人，使用`/bard [空格] 问题`来对Google Bard询问，Google Bard会做出回答，具体思考时间取决于你的网速。
 
