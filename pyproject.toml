@@ -3,7 +3,10 @@ name = "nonebot-plugin-bard-bot"
 version = "0.1.0"
 description = "nonebot-plugin-bard-bot"
 readme = "README.md"
-requires-python = ">=3.8, <4.0"
+requires-python = ">=3.8"
+dependencies = [
+    "bardapi"
+]
 
 [tool.nonebot]
 adapters = [
@@ -15,7 +18,7 @@ builtin_plugins = ["echo"]
 
 [tool.poetry]
 name = "nonebot-plugin-bard-bot"
-version = "0.1.6"
+version = "0.1.8"
 description = "一个非常简单但是很可用的使得在QQ中可以使用Google Bard的插件"
 authors = ["leafdeveloper"]
 license = "MIT"
