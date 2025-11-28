@@ -1,3 +1,5 @@
+# 由于Google Gimini的发布，本项目不在维护。但是其作为我在nonebot2学习道路上的第一个小项目，对我的影响深远.
+
 # nonebot_plugin_bard_bot
 一个非常简单但是很可用的使得在QQ中可以使用Google Bard的插件，基于nonebot2
 
